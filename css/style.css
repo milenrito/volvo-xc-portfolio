@@ -149,10 +149,6 @@ html{
     display:none;
 }
 
-.ranking{
-    height:400px;
-}
-
 .ranking__img:nth-of-type(1){
     background-image: url('../assets/img4.jpeg');
 }
@@ -162,7 +158,7 @@ html{
 }
 
 .ranking__img:nth-of-type(3){
-    background-image:linear-gradient(0deg,rgba(133,162,166,0.9),rgba(133,162,166,0.9)),url('../assets/img6.jpeg');
+    background-image:linear-gradient(0deg,#85a2a6e6,rgba(133,162,166,0.9)),url('../assets/img6.jpeg');
 }
 
 .ranking__img:last-of-type{
@@ -186,7 +182,7 @@ html{
 .ranking__title{
     display:inline-block;
     margin-top:100px;
-    font-size:2rem;
+    font-size:2.4rem;
     font-family:'Lato',sans-serif;
 }
 
@@ -206,3 +202,102 @@ html{
     background-color:var(--colorHero);
     color:var(--colorOverview);
 }
+
+.driving{
+    padding-right:8px;
+    padding-left:8px;
+    color:var(--bgOverview);
+    background-color:var(--bgcolorHero);
+}
+
+.driving h2{
+    margin-top:20px;
+    text-align:center;
+    font-size:2.4rem;
+}
+
+.driving h3{
+    margin-top:16px;
+    font-size:2rem;
+}
+
+.driving p{
+    margin-top:12px;
+    font-size:1.6rem;
+    font-family:'Open Sans',sans-serif;
+    line-height: 1.6;
+}
+
+.driving__link:link{
+    margin-bottom:20px;
+    color:var(--colorHero);
+    border:2px solid var(--colorHero);
+}
+
+.driving__link:hover{
+    color:var(--bgcolorHero);
+    background-color:var(--colorHero);
+}
+
+.location{
+    /* height: 200px; */
+    background-color:#85a2a6e6;
+}
+
+.location h4{
+    display:block;
+    padding-top:20px;
+    font-size:2rem;
+    text-align:center;
+}
+
+.location__grid{
+    margin-top:24px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,125px);
+    justify-content:center;
+    gap:25px;
+    padding-bottom:12px;
+    
+}
+
+.address,
+.phone{
+    border-top:2px solid var(--colorHero);
+}
+
+.address h5,
+.phone h5{
+    margin-top:12px;
+    margin-bottom:12px;
+    font-family:'Lato',sans-serif;
+    font-size:1.6rem;
+}
+
+.address p,
+.phone p{
+    font-family:'Open Sans',sans-serif;
+    font-size:1.2rem;
+}
+
+.phone{
+    justify-self:end;
+}
+
+footer{
+    background-color: #383838;
+    font-size:1.2rem;
+}
+footer p{
+    margin:20px;
+}
+
+footer p:last-of-type{
+    display:inline-block;
+    margin-bottom:20px;
+}
+
+.footer__link{
+    color:var(--colorHero);
+}
+
