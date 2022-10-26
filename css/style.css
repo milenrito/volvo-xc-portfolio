@@ -27,6 +27,7 @@ html{
 }
 
 .hero{
+    width:100%;
     height: 480px;
     background-image:url('../assets/img/hero.png');
     background-repeat:no-repeat;
@@ -76,7 +77,8 @@ html{
 .safe__article figure{
     display:flex;
     flex-wrap:wrap;
-  }
+}
+
 
 .safe--image{
     width:100%;
@@ -94,6 +96,10 @@ html{
     font-family:'Open Sans',sans-serif;
 }
 
+.safe__article figcaption h2{
+    display:none;
+}
+
 .safe__article figcaption p{
     /* margin-top:16px; */
     padding-right: 8px;
@@ -103,7 +109,7 @@ html{
 
 .overview{
     padding-top:20px;
-    height: calc(1130px - 100vw);
+    height: calc(1270px - 100vw);
     min-height:460px;
     padding-left:8px;
     padding-right:8px;
